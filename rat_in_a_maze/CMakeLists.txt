@@ -1,0 +1,9 @@
+add_library(
+    rat_in_a_maze
+    src/rat_in_a_maze.cpp 
+    src/generate_maze.cpp
+    src/path_solver.cpp 
+    src/generate_maze.hpp
+    src/path_solver.hpp 
+    src/types.hpp
+)
